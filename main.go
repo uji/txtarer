@@ -15,7 +15,7 @@ import (
 func main() {
 	var output string
 	var gitMode bool
-	flag.StringVar(&output, "output", "output.txtar", "The output file to write the txtar archive to. Defaults to 'output.txtar' if not specified.")
+	flag.StringVar(&output, "output", "output.txt", "The output file to write the txtar archive to. Defaults to 'output.txt' if not specified.")
 	flag.BoolVar(&gitMode, "gitmode", false, "Enable git mode to exclude files based on .gitignore")
 	help := flag.Bool("help", false, "Show help message")
 

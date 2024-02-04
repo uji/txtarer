@@ -6,7 +6,7 @@
 
 - Recursively reads and combines files in a specified directory into a txtar format.
 - The `-gitmode` option enables exclusion of files based on the `.gitignore` file in a Git repository.
-- Output filename can be specified with the `-output` option. If not specified, the default output file is "output.txtar" in the current directory.
+- Output filename can be specified with the `-output` option. If not specified, the default output file is "output.txt" in the current directory.
 
 ## Installation
 
@@ -26,7 +26,7 @@ txtarer [options] <directory>
 
 ### Options
 
-- `-output <file>`: Specifies the name of the output file. Default is "output.txtar".
+- `-output <file>`: Specifies the name of the output file. Default is "output.txt".
 - `-gitmode`: Excludes files based on the `.gitignore` file in a Git repository.
 - `-help`: Displays the help message.
 
